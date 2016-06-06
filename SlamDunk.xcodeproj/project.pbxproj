@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326735E41D060C4E00DA3584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326735E31D060C4E00DA3584 /* AppDelegate.swift */; };
+		326735E61D060C4E00DA3584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326735E51D060C4E00DA3584 /* ViewController.swift */; };
+		326735E91D060C4E00DA3584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326735E71D060C4E00DA3584 /* Main.storyboard */; };
+		326735EB1D060C4E00DA3584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326735EA1D060C4E00DA3584 /* Assets.xcassets */; };
+		326735EE1D060C4E00DA3584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326735EC1D060C4E00DA3584 /* LaunchScreen.storyboard */; };
+		326735F91D060C4E00DA3584 /* SlamDunkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326735F81D060C4E00DA3584 /* SlamDunkTests.swift */; };
+		326736041D060C4E00DA3584 /* SlamDunkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326736031D060C4E00DA3584 /* SlamDunkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326735F51D060C4E00DA3584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326735D81D060C4E00DA3584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326735DF1D060C4E00DA3584;
+			remoteInfo = SlamDunk;
+		};
+		326736001D060C4E00DA3584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326735D81D060C4E00DA3584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326735DF1D060C4E00DA3584;
+			remoteInfo = SlamDunk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		326735E01D060C4E00DA3584 /* SlamDunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlamDunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326735E31D060C4E00DA3584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326735E51D060C4E00DA3584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326735E81D060C4E00DA3584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326735EA1D060C4E00DA3584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326735ED1D060C4E00DA3584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326735EF1D060C4E00DA3584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326735F41D060C4E00DA3584 /* SlamDunkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlamDunkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326735F81D060C4E00DA3584 /* SlamDunkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlamDunkTests.swift; sourceTree = "<group>"; };
+		326735FA1D060C4E00DA3584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326735FF1D060C4E00DA3584 /* SlamDunkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlamDunkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326736031D060C4E00DA3584 /* SlamDunkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlamDunkUITests.swift; sourceTree = "<group>"; };
+		326736051D060C4E00DA3584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326735DD1D060C4E00DA3584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735F11D060C4E00DA3584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735FC1D060C4E00DA3584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326735D71D060C4E00DA3584 = {
+			isa = PBXGroup;
+			children = (
+				326735E21D060C4E00DA3584 /* SlamDunk */,
+				326735F71D060C4E00DA3584 /* SlamDunkTests */,
+				326736021D060C4E00DA3584 /* SlamDunkUITests */,
+				326735E11D060C4E00DA3584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326735E11D060C4E00DA3584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326735E01D060C4E00DA3584 /* SlamDunk.app */,
+				326735F41D060C4E00DA3584 /* SlamDunkTests.xctest */,
+				326735FF1D060C4E00DA3584 /* SlamDunkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326735E21D060C4E00DA3584 /* SlamDunk */ = {
+			isa = PBXGroup;
+			children = (
+				326735E31D060C4E00DA3584 /* AppDelegate.swift */,
+				326735E51D060C4E00DA3584 /* ViewController.swift */,
+				326735E71D060C4E00DA3584 /* Main.storyboard */,
+				326735EA1D060C4E00DA3584 /* Assets.xcassets */,
+				326735EC1D060C4E00DA3584 /* LaunchScreen.storyboard */,
+				326735EF1D060C4E00DA3584 /* Info.plist */,
+			);
+			path = SlamDunk;
+			sourceTree = "<group>";
+		};
+		326735F71D060C4E00DA3584 /* SlamDunkTests */ = {
+			isa = PBXGroup;
+			children = (
+				326735F81D060C4E00DA3584 /* SlamDunkTests.swift */,
+				326735FA1D060C4E00DA3584 /* Info.plist */,
+			);
+			path = SlamDunkTests;
+			sourceTree = "<group>";
+		};
+		326736021D060C4E00DA3584 /* SlamDunkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				326736031D060C4E00DA3584 /* SlamDunkUITests.swift */,
+				326736051D060C4E00DA3584 /* Info.plist */,
+			);
+			path = SlamDunkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326735DF1D060C4E00DA3584 /* SlamDunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326736081D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunk" */;
+			buildPhases = (
+				326735DC1D060C4E00DA3584 /* Sources */,
+				326735DD1D060C4E00DA3584 /* Frameworks */,
+				326735DE1D060C4E00DA3584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlamDunk;
+			productName = SlamDunk;
+			productReference = 326735E01D060C4E00DA3584 /* SlamDunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326735F31D060C4E00DA3584 /* SlamDunkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3267360B1D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunkTests" */;
+			buildPhases = (
+				326735F01D060C4E00DA3584 /* Sources */,
+				326735F11D060C4E00DA3584 /* Frameworks */,
+				326735F21D060C4E00DA3584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326735F61D060C4E00DA3584 /* PBXTargetDependency */,
+			);
+			name = SlamDunkTests;
+			productName = SlamDunkTests;
+			productReference = 326735F41D060C4E00DA3584 /* SlamDunkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		326735FE1D060C4E00DA3584 /* SlamDunkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3267360E1D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunkUITests" */;
+			buildPhases = (
+				326735FB1D060C4E00DA3584 /* Sources */,
+				326735FC1D060C4E00DA3584 /* Frameworks */,
+				326735FD1D060C4E00DA3584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326736011D060C4E00DA3584 /* PBXTargetDependency */,
+			);
+			name = SlamDunkUITests;
+			productName = SlamDunkUITests;
+			productReference = 326735FF1D060C4E00DA3584 /* SlamDunkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326735D81D060C4E00DA3584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dima;
+				TargetAttributes = {
+					326735DF1D060C4E00DA3584 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					326735F31D060C4E00DA3584 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 326735DF1D060C4E00DA3584;
+					};
+					326735FE1D060C4E00DA3584 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 326735DF1D060C4E00DA3584;
+					};
+				};
+			};
+			buildConfigurationList = 326735DB1D060C4E00DA3584 /* Build configuration list for PBXProject "SlamDunk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326735D71D060C4E00DA3584;
+			productRefGroup = 326735E11D060C4E00DA3584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326735DF1D060C4E00DA3584 /* SlamDunk */,
+				326735F31D060C4E00DA3584 /* SlamDunkTests */,
+				326735FE1D060C4E00DA3584 /* SlamDunkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326735DE1D060C4E00DA3584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326735EE1D060C4E00DA3584 /* LaunchScreen.storyboard in Resources */,
+				326735EB1D060C4E00DA3584 /* Assets.xcassets in Resources */,
+				326735E91D060C4E00DA3584 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735F21D060C4E00DA3584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735FD1D060C4E00DA3584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326735DC1D060C4E00DA3584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326735E61D060C4E00DA3584 /* ViewController.swift in Sources */,
+				326735E41D060C4E00DA3584 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735F01D060C4E00DA3584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326735F91D060C4E00DA3584 /* SlamDunkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326735FB1D060C4E00DA3584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326736041D060C4E00DA3584 /* SlamDunkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		326735F61D060C4E00DA3584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326735DF1D060C4E00DA3584 /* SlamDunk */;
+			targetProxy = 326735F51D060C4E00DA3584 /* PBXContainerItemProxy */;
+		};
+		326736011D060C4E00DA3584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326735DF1D060C4E00DA3584 /* SlamDunk */;
+			targetProxy = 326736001D060C4E00DA3584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326735E71D060C4E00DA3584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326735E81D060C4E00DA3584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326735EC1D060C4E00DA3584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326735ED1D060C4E00DA3584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326736061D060C4E00DA3584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326736071D060C4E00DA3584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326736091D060C4E00DA3584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlamDunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3267360A1D060C4E00DA3584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlamDunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3267360C1D060C4E00DA3584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlamDunkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlamDunk.app/SlamDunk";
+			};
+			name = Debug;
+		};
+		3267360D1D060C4E00DA3584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlamDunkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlamDunk.app/SlamDunk";
+			};
+			name = Release;
+		};
+		3267360F1D060C4E00DA3584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlamDunkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlamDunk;
+			};
+			name = Debug;
+		};
+		326736101D060C4E00DA3584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlamDunkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.SlamDunkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlamDunk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326735DB1D060C4E00DA3584 /* Build configuration list for PBXProject "SlamDunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326736061D060C4E00DA3584 /* Debug */,
+				326736071D060C4E00DA3584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326736081D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326736091D060C4E00DA3584 /* Debug */,
+				3267360A1D060C4E00DA3584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3267360B1D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3267360C1D060C4E00DA3584 /* Debug */,
+				3267360D1D060C4E00DA3584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3267360E1D060C4E00DA3584 /* Build configuration list for PBXNativeTarget "SlamDunkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3267360F1D060C4E00DA3584 /* Debug */,
+				326736101D060C4E00DA3584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326735D81D060C4E00DA3584 /* Project object */;
+}
